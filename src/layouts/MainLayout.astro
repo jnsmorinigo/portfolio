@@ -1,0 +1,25 @@
+---
+import "../styles/global.css"; // Importa tus estilos globales aquí si tienes alguno.
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{Astro.props.title || "Mi Portafolio"}</title>
+  </head>
+  <body>
+    <header>
+      <h1>Mi Portafolio</h1>
+      <!-- Navegación u otro contenido del encabezado -->
+    </header>
+    <main>
+      {Astro.props.children}
+    </main>
+    <footer>
+      <!-- Contenido del pie de página -->
+      <p>&copy; {new Date().getFullYear()} Mi Nombre</p>
+    </footer>
+  </body>
+</html>

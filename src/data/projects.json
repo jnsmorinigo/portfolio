@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Portfolio Website",
+    "description": "A personal portfolio website showcasing my projects and skills.",
+    "technologies": ["HTML", "CSS", "JavaScript", "Astro", "Svelte"],
+    "demoUrl": "https://myportfolio.com",
+    "repoUrl": "https://github.com/username/portfolio"
+  },
+  {
+    "name": "E-commerce Platform",
+    "description": "An e-commerce platform with user authentication, product listings, and shopping cart functionality.",
+    "technologies": ["React", "Node.js", "Express", "MongoDB"],
+    "demoUrl": "https://ecommerce-demo.com",
+    "repoUrl": "https://github.com/username/ecommerce-platform"
+  }
+]
